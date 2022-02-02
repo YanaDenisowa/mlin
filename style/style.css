@@ -134,10 +134,9 @@ font-family: 'Satisfy', cursive;*/
     background: transparent;
 
 }
-/*.info__slider .slider__item.slick-slide {*/
-    /*width: 330px!important;*/
-    /*margin-right: 25px;*/
-/*}*/
+.info__slider .slide-arrow.next-arrow {
+  opacity:0;
+}
 .info__slider .slider__item img {
     display: block;
     width: 100%;
@@ -285,10 +284,19 @@ font-family: 'Satisfy', cursive;*/
     background-size: cover;
     display: block;
     position: absolute;
-    top: 100%;
+    top: 85%;
     right: 20%;
 
 }
 .master__main-bottom__block img {
     width: 50%;
+}
+/*copy*/
+.copy {
+
+}
+.copy .descr {
+    text-align: center;
+    padding: 30px 0;
+    max-width: 100%;
 }
