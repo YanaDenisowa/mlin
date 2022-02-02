@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;*/
+
+.container {
+    width: 100%;
+    max-width: 1446px;
+    margin: 0 auto;
+}
+/*img {*/
+    /*display: block;*/
+    /*width: 100%;*/
+/*}*/
+.promo {
+    min-height: 835px;
+    background: url("../img/promo-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+/*.promo__content {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+/*}*/
+.promo__logo img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.promo__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+}
+.title {
+    /*font-family: 'Satisfy',cursive;*/
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 66px;
+    color: #250101;
+    width: 770px;
+}
+.descr {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #250101;
+    max-width: 450px;
+    width: 100%;
+}
+
+/*section ingredients*/
+.ingredients {
+    background: #726048;
+}
+
+.ingredinets__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.item {
+
+    display: flex;
+    align-items: center;
+}
+.item img {
+    padding-right: 25px;
+}
+.descr_light{
+    color: #FFFFFF;
+}
+
+
+/*section info*/
+.info {
+    background: #E5E5E5;
+    padding: 90px 0 120px 0;
+    display: flex;
+}
+.info__content {
+    padding-left: calc((100vw - 1446px)/2);
+}
+.subtitle {
+    text-align: center;
+    /*font-family: 'Satisfy',cursive;*/
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 54px;
+    color: #250101;
+    padding-bottom: 50px;
+}
+.info__right-col {
+    width: 50%;
+}
+
+/*section product*/
+
+.product {
+    background: #F3EDE7;
+    padding: 50px 0 80px 0;
+    min-height: 730px;
+}
+.product h2{
+    padding-bottom: 50px;
+}
+.product__slider.slick-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product__slider__item {
+    width: 358px;
+    margin-right: 75px;
+}
+.product__slider .slide-arrow {
+    border: none;
+
+}
+
+.product__slider .slide-arrow.next-arrow {
+    margin-right: 40px;
+}
+
+.product__slider .slick-list{
+    width: 1200px;
+}
+
+/*.product__slider__item :nth-child(3) {*/
+    /*margin-right: 0;*/
+
+/*}*/
+
+/*vision section*/
+.vision {
+    background: #E5E5E5;
+    padding: 120px 0;
+}
+.vision__upper-content {
+    padding-bottom: 110px;
+}
+.vision__upper-content h2 {
+    text-align: left;
+    padding-bottom: 20px;
+}
+.vision__upper-content .col-left {
+    display: flex;
+    gap: 30px;
+}
+.right .descr {
+    padding-top: 30px;
+}
+.vision__bottom__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.descr-left {
+    padding-top: 55px;
+    max-width: 690px;
+
+}
+.right__bottom_col .subtitle {
+    text-align: left;
+    padding-bottom: 20px;
+}
+.right__bottom_col .descr {
+    padding-bottom: 50px;
+}
+/*master section*/
+.master{
+    background: url("../img/bottom-section-bg.png") no-repeat ;
+
+}
+
+.master__upper__block .subtitle {
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 80px;
+
+}
+/*.master__upper__block {*/
+    /*display:flex;*/
+/*}*/
+
+.master__main__block ,
+.master__main-bottom__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.master__upper__block {
+    width: 50%;
+    padding-left: calc((100vw - 1446px)/2);
+}
+.master__main__block img{
+    display: block;
+    width: 50%;
+}
+
+.master__bottom__block {
+    width: 50%;
+    padding-right: calc((100vw - 1446px)/2);
+
+}
+.master__main-bottom__block {
+    background: #F3EDE7;
+}
+.master__bottom__block {
+    padding-left: 70px;
+    position: relative;
+
+}
+.master__bottom__block .subtitle {
+    text-align: left;
+}
+.master__bottom__block .descr {
+    max-width: 100%;
+}
+.bottom-pic {
+    background: url("../img/plate-pic-bottom-section.svg");
+    background-position: right center;
+    width: 237px;
+    height: 197px;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 20%;
+
+}
+.master__main-bottom__block img {
+    width: 50%;
+}
